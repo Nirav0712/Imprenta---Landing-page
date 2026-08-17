@@ -547,16 +547,36 @@ select option {
     background: rgba(0, 0, 0, 0.5);
 }
 
-.footer-logo {
+/* .footer-logo {
     font-family: var(--font-heading);
     letter-spacing: 3px;
     margin-bottom: 1rem;
     color: #fff;
-}
+} */
 
 .footer p {
     color: var(--text-secondary);
     font-size: 0.9rem;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 80px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .footer-logo img {
+        width: 140px;
+    }
 }
 
 /* Animations */
