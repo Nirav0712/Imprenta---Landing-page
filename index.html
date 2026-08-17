@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imprenta at Pack Expo 2026</title>
+    <meta name="description"
+        content="Meet Imprenta in Chicago at Pack Expo International 2026. Discover our multi-format packaging capabilities and premium printing.">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar / Header -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Imprenta Logo">
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#solutions">Packaging Solutions</a>
+            <a href="#why-us">Why Meet Imprenta?</a>
+        </div>
+        <div class="nav-actions">
+            <a href="#book" class="cta-nav">Book Meeting</a>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-bg-wrapper">
+            <div class="hero-slides" id="heroSlides">
+                <div class="hero-slide active" style="background-image: url('img1.jpeg');"></div>
+                <div class="hero-slide" style="background-image: url('img2.jpeg');"></div>
+                <div class="hero-slide" style="background-image: url('img3.jpeg');"></div>
+            </div>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <h2 class="subtitle fade-in">IMPRENTA AT PACK EXPO INTERNATIONAL 2026</h2>
+            <h1 class="title slide-up">Meet Imprenta<br>in <span class="highlight">Chicago</span></h1>
+            <p class="date slide-up delay-1"><i class="fa-regular fa-calendar-days"></i> October 18–21, 2026</p>
+            <div class="actions slide-up delay-2">
+                <a href="#book" class="btn btn-primary">Schedule a Meeting</a>
+                <a href="#solutions" class="btn btn-secondary">Explore Solutions</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions-section fade-in-section">
+        <div class="container">
+            <h2 class="section-title text-center">Packaging Solutions</h2>
+            <div class="grid solutions-grid">
+                <div class="card glass">
+                    <i class="fa-solid fa-tags card-icon"></i>
+                    <h3>Premium Labels</h3>
+                    <p>High-quality labeling solutions that elevate brand presence on the shelf.</p>
+                </div>
+                <div class="card glass">
+                    <i class="fa-solid fa-box-open card-icon"></i>
+                    <h3>Mono Cartons</h3>
+                    <p>Sustainable and sturdy carton packaging for a premium unboxing experience.</p>
+                </div>
+                <div class="card glass">
+                    <i class="fa-solid fa-bottle-water card-icon"></i>
+                    <h3>Shrink Sleeves</h3>
+                    <p>360-degree branding for complex container shapes with vibrant graphics.</p>
+                </div>
+                <div class="card glass">
+                    <i class="fa-solid fa-box-open card-icon"></i>
+                    <h3>Flexible Packaging Pouches</h3>
+                    <p>Versatile, lightweight, and durable pouches for diverse product needs.</p>
+                </div>
+                <div class="card glass">
+                    <i class="fa-solid fa-spray-can card-icon"></i>
+                    <h3>Seamless Plastic Tubes</h3>
+                    <p>Sleek and functional packaging for cosmetics, personal care, and more.</p>
+                </div>
+                <div class="card glass highlight-card">
+                    <i class="fa-solid fa-pen-nib card-icon"></i>
+                    <h3>Corporate Branding & Design</h3>
+                    <p>End-to-end design services to ensure your packaging aligns with your brand identity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Meet Imprenta Section -->
+    <section id="why-us" class="why-section fade-in-section">
+        <div class="container split-layout">
+            <div class="why-content">
+                <h2 class="section-title">Why Meet Imprenta?</h2>
+                <ul class="feature-list">
+                    <li><i class="fa-solid fa-check-circle"></i> Multi-format packaging capabilities</li>
+                    <li><i class="fa-solid fa-check-circle"></i> Premium printing & finishing</li>
+                    <li><i class="fa-solid fa-check-circle"></i> Packaging development support</li>
+                    <li><i class="fa-solid fa-check-circle"></i> Corporate branding & design</li>
+                    <li><i class="fa-solid fa-check-circle"></i> International business focus</li>
+                </ul>
+            </div>
+            <div class="why-image glass">
+                <div class="blob"></div>
+                <h3>Elevating Brands Globally</h3>
+                <p>Discuss your Next-Gen packaging needs with our experts directly on the expo floor.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section id="book" class="booking-section fade-in-section">
+        <div class="container container-sm">
+            <div class="form-wrapper glass">
+                <h2 class="section-title text-center">Book a Meeting</h2>
+                <p class="text-center text-muted form-desc">Secure your time slot with our team in Chicago.</p>
+                <form id="meetingForm" class="booking-form">
+                    <div class="form-group row">
+                        <div class="col">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" required placeholder="John Doe">
+                        </div>
+                        <div class="col">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" required placeholder="Acme Corp">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="col">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" required placeholder="+1 (555) 000-0000">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="requirement">Packaging Requirement</label>
+                        <select id="requirement" required>
+                            <option value="" disabled selected>Select an area of interest</option>
+                            <option value="Premium Labels">Premium Labels</option>
+                            <option value="Mono Cartons">Mono Cartons</option>
+                            <option value="Shrink Sleeves">Shrink Sleeves</option>
+                            <option value="Flexible Pouches">Flexible Packaging Pouches</option>
+                            <option value="Plastic Tubes">Seamless Plastic Tubes</option>
+                            <option value="Branding">Corporate Branding & Design</option>
+                            <option value="Other">Other / General</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Preferred Meeting Date</label>
+                        <input type="date" id="date" name="date" min="2026-10-18" max="2026-10-21" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block mt-4">
+                        <span class="btn-text">Submit Request</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                    <div id="formMessage" class="form-message hidden">Thank you! Your meeting request has been
+                        submitted.</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <h2 class="footer-logo">IMPRENTA</h2>
+            <p>&copy; 2026 Imprenta Packaging. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
